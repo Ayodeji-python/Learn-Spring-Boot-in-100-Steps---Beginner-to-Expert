@@ -97,12 +97,19 @@ Checks
 ### /pom.xml Modified
 
 ```
+In this step, I used the dependency below
+		<dependency>
+			<groupId>org.apache.tomcat</groupId>
+			<artifactId>tomcat-jasper</artifactId>
+			<version>10.1.10</version>
+		</dependency>
+as compared to the one with tomcat.embed as specified by the author
 <dependency>
 	<groupId>org.apache.tomcat.embed</groupId>
 	<artifactId>tomcat-embed-jasper</artifactId>
 	<scope>provided</scope>
 </dependency>
-
+I also needed to instal the Eclipse Enterprise Jave and Web Developer Tools 3.30 from Eclipse Marketplace to get this step working
 ```
 ### /src/main/java/com/in28minutes/springboot/myfirstwebapp/hello/SayHelloController.java Modified
 
