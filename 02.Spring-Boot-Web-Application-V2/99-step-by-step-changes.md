@@ -240,7 +240,30 @@ public class LoginController {
 
 ## Step09
 Step 09 - Quick Overview - Importance of Logging with Spring Boot
+```
+You can log events from a specific package as opposed to logging events from the entire application which impedes performance as a result of its volume.
 
+to log events from a package
+1.	specify the following in the application.properties file
+logging.level.<packageName> = <debug or info >
+e.g
+logging.level.com.in28minutes.springboot.myfirstwebapp.login = debug
+
+2.	Declare and assign the logger variable in the Controller class
+private Logger logger = LoggerFactory.getLogger(getClass());
+
+3.	call the logger method from the section of the class you intend to log the events
+	e.g
+		public String gotoLoginPage(@RequestParam String name, ModelMap model) {
+		model.put("name", name);
+	**->	logger.debug("Request param is printed at debug level{}", name);**
+		System.out.println("Request param is "+ name);
+		return "login";
+	}
+
+note the logger variable must call the type of log <info or debug>
+assigned in the application.properties file
+```
 ## Step10
 Step 10 - Understanding DispatcherServlet, Model 1, Model 2 and Front Controller
 
