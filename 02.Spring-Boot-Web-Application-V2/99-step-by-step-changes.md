@@ -1,4 +1,4 @@
-
+![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/941ee19c-dd82-4222-af8a-5af58f7d9be4)
 
 # Spring Boot Web Application - V2
 
@@ -271,6 +271,14 @@ note the logger variable must call the logging levels assigned in the applicatio
 ```
 ## Step10
 Step 10 - Understanding DispatcherServlet, Model 1, Model 2 and Front Controller
+
+![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/172cdf12-a946-40e9-986b-eb2e6a87db97)
+![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/e8773847-310a-47fe-94a4-3480f5faeba2)
+![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/939f8cb9-81ef-4373-86c2-9ae70c685282)
+![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/5cae7703-d0cd-4231-bbdd-b420f7e19940)
+![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/8bc10391-9a94-4406-913b-7da3fb603cfa)
+
+![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/3d157f78-bf8e-4461-aeea-8f5538bd8f89)
 
 ## Step11
 Step 11 - Creating a Login Form
