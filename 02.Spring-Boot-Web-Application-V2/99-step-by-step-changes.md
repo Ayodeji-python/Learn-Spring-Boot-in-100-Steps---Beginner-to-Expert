@@ -243,9 +243,15 @@ Step 09 - Quick Overview - Importance of Logging with Spring Boot
 ```
 You can log events from a specific package as opposed to logging events from the entire application which impedes performance as a result of its volume.
 
+There are multiple logging levels
+Debug,
+Info,
+Warn,
+Trace
+
 to log events from a package
 1.	specify the following in the application.properties file
-logging.level.<packageName> = <debug or info level >
+logging.level.<packageName> = <logging level>
 e.g
 logging.level.com.in28minutes.springboot.myfirstwebapp.login = debug
 
@@ -261,8 +267,7 @@ private Logger logger = LoggerFactory.getLogger(getClass());
 		return "login";
 	}
 
-note the logger variable must call the type of log <info or debug level>
-assigned in the application.properties file
+note the logger variable must call the logging levels assigned in the application.properties file
 ```
 ## Step10
 Step 10 - Understanding DispatcherServlet, Model 1, Model 2 and Front Controller
