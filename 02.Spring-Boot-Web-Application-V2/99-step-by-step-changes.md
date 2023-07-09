@@ -277,7 +277,6 @@ Step 10 - Understanding DispatcherServlet, Model 1, Model 2 and Front Controller
 ![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/5cae7703-d0cd-4231-bbdd-b420f7e19940)
 ![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/8bc10391-9a94-4406-913b-7da3fb603cfa)
 
-![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/3d157f78-bf8e-4461-aeea-8f5538bd8f89)
 
 ## Step11
 Step 11 - Creating a Login Form
