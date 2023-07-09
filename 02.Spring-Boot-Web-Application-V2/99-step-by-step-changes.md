@@ -1,4 +1,3 @@
-![image](https://github.com/Ayodeji-python/Learn-Spring-Boot-in-100-Steps---Beginner-to-Expert/assets/57605386/941ee19c-dd82-4222-af8a-5af58f7d9be4)
 
 # Spring Boot Web Application - V2
 
