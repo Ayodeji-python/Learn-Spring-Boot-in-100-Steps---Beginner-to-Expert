@@ -245,7 +245,7 @@ You can log events from a specific package as opposed to logging events from the
 
 to log events from a package
 1.	specify the following in the application.properties file
-logging.level.<packageName> = <debug or info >
+logging.level.<packageName> = <debug or info level >
 e.g
 logging.level.com.in28minutes.springboot.myfirstwebapp.login = debug
 
@@ -261,7 +261,7 @@ private Logger logger = LoggerFactory.getLogger(getClass());
 		return "login";
 	}
 
-note the logger variable must call the type of log <info or debug>
+note the logger variable must call the type of log <info or debug level>
 assigned in the application.properties file
 ```
 ## Step10
