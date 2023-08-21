@@ -108,7 +108,7 @@ as compared to the one with tomcat.embed as specified by the author
 	<artifactId>tomcat-embed-jasper</artifactId>
 	<scope>provided</scope>
 </dependency>
-I also needed to instal the Eclipse Enterprise Jave and Web Developer Tools 3.30 from Eclipse Marketplace to get this step working
+I also needed to instal the Eclipse Enterprise Java and Web Developer Tools 3.30 from Eclipse Marketplace to get this step working
 ```
 ### /src/main/java/com/in28minutes/springboot/myfirstwebapp/hello/SayHelloController.java Modified
 
